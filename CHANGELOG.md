@@ -1,3 +1,20 @@
+## 0.4.0+1
+
+* Set Android `compileSdkVersion` to 28 in order to prevent build errors with AndroidX.
+
+## 0.4.0
+
+* **Breaking change**. Migrate from the deprecated original Android Support
+  Library to AndroidX. This shouldn't result in any functional changes, but it
+  requires any Android apps using this plugin to [also
+  migrate](https://developer.android.com/jetpack/androidx/migrate) if they're
+  using the original support library.
+
+## 0.3.1
+ * ios warning fixes
+ * fix crash when attachment has unknow mimeType
+ * display full file name with extention.
+
 ## 0.3.0
   * android - change to use "just once/always" menu instead of choser.
   _this is a super small change but changes the flow, hence it's not a patch._
